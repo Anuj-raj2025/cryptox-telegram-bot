@@ -20,3 +20,23 @@ prices, market comparisons, and personalized investment advice.
 - 🌐 Supports Hindi/English/Hinglish queries
 
 ## 🏗️ Architecture
+Telegram User
+↓
+Telegram Trigger (n8n)
+↓
+AI Agent (Groq LLaMA 3.3)
+↓
+CoinMarketCap (using Scraper API)
+↓
+Telegram Response
+
+## ⚙️ Setup
+1. Import `crypto_tele_bot.json` into your n8n instance
+2. Add credentials: Telegram, Groq, ScraperAPI
+3. Activate/Publish the workflow
+4. Start chatting with your bot on Telegram!
+
+## 📌 Note
+This was built as a learning project to explore AI agents, 
+tool-calling, and workflow automation in n8n.
+
