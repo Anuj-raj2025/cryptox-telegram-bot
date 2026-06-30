@@ -53,7 +53,7 @@
           "parameters": [
             {
               "name": "api_key",
-              "value": "d55af5288eedbb5520584d7bcc5c3f66"
+              "value": "YOUR_SCRAPERAPI_KEY_HERE"
             },
             {
               "name": "url",
